@@ -18,5 +18,28 @@ body {
 
 header {
   display: flex;
-  background: url("space.png");
+  background: url("/images/space.png");
+
+}
+
+.container-2-header {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.container-1-header {
+  display: flex;
+}
+
+
+.main-img {
+  max-height: 200px;
+
+}
+
+header {
+  display: flex;
+  flex-direction: column
 }
