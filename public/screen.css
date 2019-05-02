@@ -43,10 +43,6 @@ header {
 
 }
 
-.header-text {
-  margin-left: 5rem;
-}
-
 
 .main-img {
   width: 225px;
@@ -63,9 +59,54 @@ header {
 .header-text {
   background-color: gray;
   height: 6rem;
+  margin-left: 5rem;
 }
 
 h1,
 h3 {
   color: white;
+}
+
+.main-header-1-background {
+  background: url("/images/react.png");
+  height: 5rem;
+  margin: 2rem;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.main-header-2-background {
+  background: url("/images/code.png");
+  height: 5rem;
+  margin: 2rem;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.container-1-main {
+  position: flex;
+  margin: 2rem;
+  margin-top: 0;
+  background-color: white;
+}
+
+.container-2-main {
+  position: flex;
+  margin: 2rem;
+  margin-top: 0;
+  background-color: white;
+}
+
+span {
+  font-size: .75rem;
+
+}
+
+h2 {
+  margin-top: 0;
+}
+
+
+.main {
+  background-color: #000000
 }
