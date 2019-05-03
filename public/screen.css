@@ -13,7 +13,7 @@ body {
 
 .profile-pic {
   width: 200px;
-  border-top-right-radius: 25px;
+  border-radius: 5px;
   margin-left: 20%;
   margin-top: 20%;
 }
@@ -107,6 +107,7 @@ h3 {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   padding: 20px;
+  margin-bottom: 0;
 }
 
 span {
@@ -121,4 +122,40 @@ h2 {
 
 .main {
   background-color: #000000
+}
+
+.container-2-footer {
+  display: flex;
+  align-items: center;
+}
+
+.twitter {
+  border-radius: 50%;
+  height: 50px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+
+}
+
+.container-2-footer {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.container-1-footer {
+  color: white;
+  padding-top: 3rem;
+}
+
+.container-3-footer {
+  color: white;
+  padding-bottom: 3rem;
 }
