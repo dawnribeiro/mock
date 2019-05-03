@@ -9,6 +9,7 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  font-family: 'Roboto', sans-serif;
 }
 
 .profile-pic {
@@ -20,9 +21,8 @@ body {
 
 header {
   display: flex;
-  background: url("/images/space.png");
+  background: url('/images/space.png');
   background-size: 100%;
-
 }
 
 .container-2-header {
@@ -33,7 +33,6 @@ header {
   padding-right: o;
   padding-left: 0;
   background-color: #00000090;
-
 }
 
 .container-1-header {
@@ -41,20 +40,17 @@ header {
   margin-left: 10%;
   margin-top: 10%;
   margin-bottom: 10%;
-
 }
-
 
 .main-img {
   width: 225px;
   height: 144px;
   border-radius: 5px;
-
 }
 
 header {
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 }
 
 .header-text {
@@ -66,21 +62,22 @@ header {
 h1,
 h3 {
   color: white;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .main-header-1-background {
-  background: url("/images/react.png");
+  background: url('/images/react.png');
   height: 5rem;
   margin: 2rem;
   margin-bottom: 0;
   margin-top: 0;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
-
 }
 
 .main-header-2-background {
-  background: url("/images/code.png");
+  background: url('/images/code.png');
   height: 5rem;
   margin: 2rem;
   margin-bottom: 0;
@@ -93,6 +90,7 @@ h3 {
   position: flex;
   margin: 2rem;
   margin-top: 0;
+  margin-bottom: 0;
   background-color: white;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -103,25 +101,23 @@ h3 {
   position: flex;
   margin: 2rem;
   margin-top: 0;
+  margin-bottom: 0;
   background-color: white;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   padding: 20px;
-  margin-bottom: 0;
 }
 
 span {
-  font-size: .75rem;
-
+  font-size: 0.75rem;
 }
 
 h2 {
   margin-top: 0;
 }
 
-
 .main {
-  background-color: #000000
+  background-color: #000000;
 }
 
 .container-2-footer {
@@ -139,7 +135,6 @@ footer {
   flex-direction: column;
   align-items: center;
   background-color: #000000;
-
 }
 
 .container-2-footer {
@@ -158,4 +153,36 @@ footer {
 .container-3-footer {
   color: white;
   padding-bottom: 3rem;
+}
+
+.keep-reading-1 {
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 10rem;
+  margin-left: 75%;
+  padding: 2px;
+  margin-top: -15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.keep-reading-2 {
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 10rem;
+  margin-left: 75%;
+  padding: 2px;
+  margin-top: -15px;
+  border-radius: 5px;
+}
+
+.keep-reading-text {
+  text-align: center;
+  margin: 5px;
+  font-size: 15px;
+  padding: 10px;
 }
