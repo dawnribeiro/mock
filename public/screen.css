@@ -205,3 +205,10 @@ footer {
   margin-left: 40px;
   margin-top: -2px;
 }
+
+@media (max-width: 800px) {
+  section {
+    border: 5px solid palevioletred;
+
+  }
+}
