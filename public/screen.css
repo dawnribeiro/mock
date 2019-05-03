@@ -54,7 +54,7 @@ header {
   flex-direction: column;
 }
 
-.header-text {
+.bubble {
   background-color: rgb(255, 255, 255);
   height: 6rem;
   margin-left: 40px;
@@ -209,7 +209,11 @@ footer {
 @media (max-width: 1000px) {
   .container-2-header {
     flex-wrap: wrap;
-
-
   }
+
+  .bubble {
+    display: unset !important;
+  }
+
+    {}
 }
