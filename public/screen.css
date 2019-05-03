@@ -206,9 +206,10 @@ footer {
   margin-top: -2px;
 }
 
-@media (max-width: 800px) {
-  section {
-    border: 5px solid palevioletred;
+@media (max-width: 1000px) {
+  .container-2-header {
+    flex-wrap: wrap;
+
 
   }
 }
