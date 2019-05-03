@@ -54,14 +54,24 @@ header {
 }
 
 .header-text {
-  background-color: gray;
+  background-color: rgb(255, 255, 255);
   height: 6rem;
-  margin-left: 5rem;
+  margin-left: 40px;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 15;
+  margin-top; 15;
+}
+
+h3 {
+  margin-top: 0px;
 }
 
 h1,
 h3 {
-  color: white;
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -185,4 +195,8 @@ footer {
   margin: 5px;
   font-size: 15px;
   padding: 10px;
+}
+
+.triangle {
+  margin-left: 40px;
 }
