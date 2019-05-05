@@ -87,6 +87,7 @@ h3 {
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   background-size: 100%;
+  padding-bottom: 38px;
 }
 
 .main-header-2-background {
@@ -97,6 +98,8 @@ h3 {
   margin-top: 0;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
+  padding-bottom: 38px;
+  background-size: 100%;
 }
 
 .container-1-main {
