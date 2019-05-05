@@ -221,4 +221,8 @@ footer {
   .triangle {
     display: none;
   }
+  .keep-reading-1,
+  .keep-reading-2 {
+    margin-left: 25%;
+  }
 }
